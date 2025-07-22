@@ -1,0 +1,9 @@
+# Ignore node_modules everywhere
+**/node_modules/
+
+# Optional: Common ignores for frontend/backend
+.DS_Store
+dist/
+build/
+.env
+*.log
