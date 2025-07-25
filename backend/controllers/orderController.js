@@ -5,7 +5,46 @@ import Order from "../models/orderModel.js";
 //@route    POST /api/orders
 //@access   Private
 const addOrderItems = asyncHandler(async (req, res) => {
-  res.send("create order");
+  const {
+    orderItem,
+    shippingAddress,
+    paymentMethod,
+    itemsPrice,
+    taxPrice,
+    shippingPrice,
+    totalPrice,
+  } = req.body;
+
+  if (orderItem && orderItem.length === 0) {
+    res.status(400);
+    throw new Error("No order items");
+  } else {
+    const order = new Order({
+      orderItems: orderItems.map((x) => ({
+        ...x,
+        product: x._id,
+        _id: undefined,
+      })),
+      user: req.user._id,
+      shippingAddress,
+      paymentMethod,
+      itemsPrice,
+      taxPrice,
+      shippingPrice,
+      totalPrice,
+    });
+
+    const createOrder = await order.save();
+
+    res.status(201).json(createdOrder);
+  }
+});
+// @desc    Get logged in user orders
+// @route   GET /api/orders/myorders
+// @access  Private
+const getMyOrders = asyncHandler(async (req, res) => {
+  const orders = await Order.find({ user: req.user._id });
+  res.json(orders);
 });
 
 // @desc    Get order by ID
@@ -29,13 +68,6 @@ const updateOrderToDelivered = asyncHandler(async (req, res) => {
   res.send("update order to delivered");
 });
 
-// @desc    Get logged in user orders
-// @route   GET /api/orders/myorders
-// @access  Private
-const getMyOrders = asyncHandler(async (req, res) => {
-  res.send("get logged in user orders");
-});
-
 // @desc    Get all orders
 // @route   GET /api/orders
 // @access  Private/Admin
@@ -45,9 +77,9 @@ const getOrders = asyncHandler(async (req, res) => {
 
 export {
   addOrderItems,
+  getMyOrders,
   getOrderById,
   updateOrderToPaid,
   updateOrderToDelivered,
-  getMyOrders,
   getOrders,
 };
