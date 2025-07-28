@@ -1,0 +1,233 @@
+[33mcommit 6230fecedd6fa669c7440b7716e55cb67fa32597[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Fri Jul 25 17:35:52 2025 +0300
+
+    Profile display and update. Show orders on profile
+
+[33mcommit 29918c774a272fd9d2e8d4ba9c2d6951c794ecba[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Fri Jul 25 13:56:23 2025 +0300
+
+    PayPal integration
+
+[33mcommit 07169da3b42a1ba481278e8c3309d5e4059bb3c6[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Fri Jul 25 11:49:35 2025 +0300
+
+    Add exp to frontend user
+
+[33mcommit 81204a921ebe70946bde4cf6857a6ec8a87152ec[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Fri Jul 25 04:14:43 2025 +0300
+
+    Order page
+
+[33mcommit 343f37bfdcfa99ab2ee5a834a0e395b590d35dfc[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Fri Jul 25 04:05:52 2025 +0300
+
+    Create order - backend and frontend
+
+[33mcommit 302cb5361c124ac43af5b783b07a99b406e60b41[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Fri Jul 25 02:59:08 2025 +0300
+
+    Order routes and controller functions
+
+[33mcommit 8c98f933f1c7ffd8eef5c67cca8f562de2746284[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Fri Jul 25 02:14:12 2025 +0300
+
+    Payment screen
+
+[33mcommit f6074cc2d52e91848f10021465ccdc1637bc1f1f[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Thu Jul 24 21:55:02 2025 +0300
+
+    custom Bootstrap theme
+
+[33mcommit 28ed80bb137b127b71aefe26873a6a2190c11a0e[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Thu Jul 24 14:00:00 2025 +0300
+
+    Checkout steps component
+
+[33mcommit a47c36b43343e01d13120060b7290acd1061bc10[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Thu Jul 24 13:54:41 2025 +0300
+
+    Pricate routes
+
+[33mcommit e332c1392938fd70da03775d8183dd4ad485a5d7[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Thu Jul 24 13:47:22 2025 +0300
+
+    Shipping screen and state
+
+[33mcommit 4c734b5b15649186c3a55714144a2f68c34b160b[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 14:15:48 2025 +0300
+
+    Register screen and functionality
+
+[33mcommit 0e57af0766d76b91d8329c38a06d72ba57b72db6[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 13:52:52 2025 +0300
+
+    Logout user functionality
+
+[33mcommit 349028bf35b4541cd2e4e6eda93e3ee2a1133088[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 10:31:18 2025 +0300
+
+    LoginScreen and functionality
+
+[33mcommit 0e2c6f763c0f6c5e763351acb64dda6688d60ed9[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 10:19:32 2025 +0300
+
+    auth and userApi slices
+
+[33mcommit 0eba4e44b69c02aba2ce3fae873da939a87e0864[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 09:59:11 2025 +0300
+
+    User profile endpoints
+
+[33mcommit 5a1af80695b5dcfc6ecbb61942ec800c4a3ef5b4[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 09:53:50 2025 +0300
+
+    Register user and generateToken util
+
+[33mcommit c5506fdaef359c1a9a0dec67d834ce4d653dd2d7[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 09:39:18 2025 +0300
+
+    Logout user and clear JWT cookie
+
+[33mcommit 24efec351622bdf4f1c6e883c789c244b22874c6[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 09:34:11 2025 +0300
+
+    JWT http-only cookie
+
+[33mcommit 1f5659f3e5d8c4ae521ae5e49fc66132f27fcb8b[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 04:13:55 2025 +0300
+
+    User auth endpoint
+
+[33mcommit 097b9bbdfd04a9e4ed753b9762baf9ab6b27e2a2[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 04:09:55 2025 +0300
+
+    User routes and controllers
+
+[33mcommit d4490f1f49ac23fa374a0860a0ff8bc27ed046ef[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 03:57:36 2025 +0300
+
+    Add and remove from cart
+
+[33mcommit 39436f6b43ae03cb8a35469886ccdac81e1ae08b[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 03:42:33 2025 +0300
+
+    cartSlice clean up with utility functions
+
+[33mcommit 2c31779c5c8af2ac8b2097ace33a635947e2ffc8[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Wed Jul 23 03:30:34 2025 +0300
+
+    cartSlice & addToCart reducer/action
+
+[33mcommit 70506afe14a442193fb4aea560d2c9a2f92f887c[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 23:59:09 2025 +0300
+
+    Change name of productsApiSlice
+
+[33mcommit 493acfbce30c02adac6c75492e7644ca1f8413bf[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 23:58:46 2025 +0300
+
+    Change name of productsApiSlice
+
+[33mcommit 70e70a7a7074c3b91c0bc94029766b7cfcdb436a[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 23:53:05 2025 +0300
+
+    Loader & Message Components
+
+[33mcommit a2b3c195737548dd370f4a997beeaeb53f3b487e[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 21:39:44 2025 +0300
+
+    --
+
+[33mcommit 9dfe719ecbdd905848cf1f98a287e8fd9ffcd43e[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 21:29:42 2025 +0300
+
+    Redux store, apiSlice & productSlice
+
+[33mcommit a99848a98038818a242881a5af4b27e8c1655544[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 21:28:18 2025 +0300
+
+    Redux store, apiSlice & productSlice
+
+[33mcommit e7c538cbc9eed65289af4d2f4f64654c87d66d2d[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 18:35:05 2025 +0300
+
+    Product controller
+
+[33mcommit 38d5ae43835d74242b6640a3533b8a536fbb0824[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 18:26:55 2025 +0300
+
+    Error middleware
+
+[33mcommit 45f8a248a38c1540d20a325b688a0aaa1c4eea73[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 17:35:06 2025 +0300
+
+    Get products from database
+
+[33mcommit d02cace799c29913b2732c34c95668c11acc3772[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 17:12:12 2025 +0300
+
+    Sample data seeder
+
+[33mcommit a1dc178500c367b0444af4ae1c4b73846379cba0[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 16:50:03 2025 +0300
+
+    Database connect & Model data
+
+[33mcommit 6440b1a6d3200b6f2318f3f5f0854a8fec5101cb[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 13:32:04 2025 +0300
+
+    Fetch products from the backend
+
+[33mcommit d542a142ad8a2f5f51c76ae06e0420a923c12496[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 13:18:20 2025 +0300
+
+    Install axios module
+
+[33mcommit 0ccb83cf0c3c11efa067e18ec0a688c06823a450[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 13:16:34 2025 +0300
+
+    Fetch products from the backend
+
+[33mcommit db6c57eeabba077bbff4c155bd5bd3d165e8e443[m
+Author: volodymyr9090 <volodymyrmalenko9@gmail.com>
+Date:   Tue Jul 22 13:10:22 2025 +0300
+
+    Initial commit
