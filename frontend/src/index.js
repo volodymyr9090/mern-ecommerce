@@ -55,7 +55,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <PayPalScriptProvider deferLoding={true}>
+      <PayPalScriptProvider deferLoading={true}>
         <RouterProvider router={router} />
       </PayPalScriptProvider>
     </Provider>
